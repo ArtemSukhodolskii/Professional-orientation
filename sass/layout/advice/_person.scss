@@ -1,0 +1,21 @@
+.title__person-sit {
+    top: 21.8rem;
+    left: 6.5rem;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .title__person-sit {
+        top: 16.5rem;
+        left: 6rem;
+        width: 240px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .title__person-sit {
+        top: 21.8rem;
+        width: 320px;
+    }
+}

@@ -1,0 +1,19 @@
+.title__text {
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .title__text {
+    top: 1rem;
+    left: 5rem;
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title__text {
+    top: 1rem;
+    left: 6rem;
+    width: 1000px;
+  }
+}

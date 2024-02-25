@@ -1,0 +1,28 @@
+.imageContainer {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer h4 {
+  font-size: medium;
+}
+
+@media (min-width: 1200px) {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h4 {
+    font-size: large;
+  }
+}

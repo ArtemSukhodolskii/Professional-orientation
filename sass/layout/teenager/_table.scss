@@ -1,0 +1,30 @@
+
+.imageContainer {   
+    @include imageContainer;
+    
+}
+
+@media (min-width: 992px){
+    .imageContainer {
+        @include imageContainer(450px, 100px, small);
+    }
+}
+
+@media (min-width: 1200px){
+    .imageContainer {
+        @include imageContainer(600px, 100px, large);
+    }
+}
+
+.table {
+    * {
+        transition: all 0.5s;
+    }   
+}
+
+.table:hover {
+
+    * {
+        transform: scale(110%);
+    }
+}

@@ -1,0 +1,27 @@
+
+.selection__person {
+    top: 10rem;
+    left: 4rem;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .selection__person {
+        top: 12rem;
+        width: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .selection__person {
+        top: 13rem;
+        width: 200px;
+    }
+}
+
+@media (min-width: 1400px){
+    .selection__person {
+        top: 10rem;
+        width: 250px;
+    }
+}

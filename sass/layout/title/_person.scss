@@ -1,0 +1,30 @@
+
+
+@media (min-width: 992px) {
+    .title__person {
+        top: 10rem;
+        left: 5.5rem;
+        width: 170px;
+        height: auto;
+        
+    }
+}
+
+@media (min-width: 1200px) {     
+    .title__person {
+        top: 12rem;
+        left: 5.5rem;
+        width: 220px;
+        height: auto;
+        
+    }
+}
+
+@media (min-width: 1400px) {
+    .title__person {
+        top: 16rem;
+        left: 2rem;
+        width: 300px;
+        height: auto;
+    }
+}

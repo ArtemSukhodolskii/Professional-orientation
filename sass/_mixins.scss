@@ -1,0 +1,11 @@
+@mixin imageContainer($width: 500px, $height: 100px, $size: medium){
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: $width;
+    height: $height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $size;
+}

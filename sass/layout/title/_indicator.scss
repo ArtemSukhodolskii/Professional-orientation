@@ -1,0 +1,96 @@
+
+.title__sign_purple {
+    top: 0;
+}
+.title__sign_blue {
+    top: 12rem;
+}
+.title__sign_aqua {
+    top: 16rem;
+}
+
+@media (min-width: 992px) {
+    
+    .title__pole {
+        top: 3rem;
+        left: 20rem;
+        width: 19px;
+        height: auto;
+    }
+    
+    .title__sign {
+        left:16rem;
+        width: 150px;
+        height: auto;
+    }
+
+    .title__sign_purple {
+        top: 2rem;
+    }
+    .title__sign_blue {
+        top: 8rem;
+    }
+    .title__sign_aqua {
+        top: 10rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    
+    .title__pole {
+        top: 3rem;
+        left: 24rem;
+        width: 25px;
+        height: auto;
+    }
+    
+    .title__sign {
+        top:10rem;
+        left:19rem;
+        width: 200px;
+        height: auto;
+    }
+
+    .title__sign_purple {
+        top: 0;
+    }
+    .title__sign_blue {
+        top: 10rem;
+    }
+    .title__sign_aqua {
+        top: 14rem;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    
+    .title__pole {
+        top: 8rem;
+        left: 27.5rem;
+        width: 30px;
+        height: auto;
+    }
+    
+    .title__sign {
+        left:21rem;
+        width: 250px;
+        height: auto;
+        
+    }
+
+    .title__sign_purple {
+        top: 4rem;
+    }
+
+    .title__sign_blue {
+        top: 15rem;
+    }
+    
+    .title__sign_aqua {
+        top: 19rem;
+    }
+    
+
+}
