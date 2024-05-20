@@ -6,23 +6,25 @@
 
 ?>
 
-<?php $view->component('header'); ?>
-<!-- navbar -->
-    <?php $view->component('navbar'); ?>
-    <section class="title">
-        <div class="container d-flex justify-content-center">
-            <div class="pointer-none d-none d-lg-block test position-relative">
-                <img class="title__pc" src="assets/img/other/pc.svg" alt="">
-                <img class="title__person-sit position-absolute" src="assets/img/person/personSit.svg" alt="">
-                <img class="title__text position-absolute" src="assets/img/other/text.svg" alt="">
-            </div>
-            <div class="d-lg-none">
-                <h1 class="mb-1 display-1 text-center">
-                    Как освоиться в новой профессии?
-                </h1>
-                <p>Какой то тут текст должен быть ну типо да</p>
-            </div>
+<?php $view->component('head'); ?>
+    <!-- navbar -->
+<?php $view->component('navbar'); ?>
+
+<!-- main content -->
+    <section class="title my-2">
+        <div class="container position-relative pointer-none">
+            <img class="wave-5 position-absolute" src="assets/img/wave/wave-5.svg" alt="">
+            <ul class="advice-ul position-absolute">
+                <li class="advice-li">Составить список профессий, которые тебе нравятся</li>
+                <li class="advice-li">Составить перечень требований выбираемой профессии</li>
+                <li class="advice-li">Определить значимость каждого требования</li>
+                <li class="advice-li">Оценить свое соответствие требованиям каждой из подходящих профессий</li>
+                <li class="advice-li">Подсчитать и проанализировать свои результаты</li>
+                <li class="advice-li">Обсудить решение с друзьями, родителями, учителями</li>
+                <li class="advice-li">
+                    Определить основные практические пути к успеху</li>
+            </ul>
         </div>
     </section>
 
-    <?php $view->component('footer'); ?>
+<?php $view->component('footer'); ?>

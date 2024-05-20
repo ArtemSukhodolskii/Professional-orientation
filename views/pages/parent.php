@@ -6,7 +6,7 @@
 
 ?>
 
-<?php $view->component('header'); ?>
+<?php $view->component('head'); ?>
     <!-- navbar -->
     <?php $view->component('navbar'); ?>
 

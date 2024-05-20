@@ -6,6 +6,8 @@ use App\Controllers\TeenagerController;
 use App\Controllers\ParentController;
 use App\Controllers\TestsController;
 use App\Controllers\AdviceController;
+use App\Controllers\ProfIncController;
+use App\Controllers\VarProfController;
 
 return [
     Route::get('/',  [HomeController::class, 'index']),
@@ -13,6 +15,7 @@ return [
     Route::get('/teenager', [TeenagerController::class, 'index']),
     Route::get('/parent', [ParentController::class, 'index']),
     Route::get('/tests', [TestsController::class, 'index']),
+    Route::get('/varProf', [VarProfController::class, 'index']),
+    Route::get('/profInc', [ProfIncController::class, 'index']),
     Route::get('/advice', [AdviceController::class, 'index']),
-
 ];

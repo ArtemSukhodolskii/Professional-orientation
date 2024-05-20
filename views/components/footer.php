@@ -1,3 +1,3 @@
-<script src="sass/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
 </body>
 </html>
